@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<movie width="320" height="240" framerate="12">
+  <background color="#f0f8ff"/>
+  <clip import="build/classes.swf" />
+
+  <frame>
+    <library>
+      <clip id="tfw" class="TextFieldWidget" />
+      <clip id="bgimage" import="data/background.jpg" />
+    </library>
+
+    <place id="tfw" name="myApp" depth="1" />
+  </frame>
+</movie>
